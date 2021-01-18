@@ -1,0 +1,28 @@
+algorythm word cheker
+var 
+i :int
+word : string ;
+Nword: int :=1; 
+Nchar: int ;
+Nvoy : int ;
+ begin 
+repeat print(write a word );
+scan (word);
+until (wird.length>0 & word{word.length} == "." );
+for i from 0 to word.length step 1 do 
+if (word[i]!=" "} then 
+Nword:=Nword + 1 ;
+    end if 
+if (word[i]!=" ") THEN
+        Nchar:=Nchar+1;
+    if (word[i] in ["a","o","i","e","u"]) then
+        Nvoy:=Nvoy+1;
+    END_IF
+END_FOR
+print("The length of the word u entered is = ");
+print(word.length);
+print("The number of characters in the word= ");
+print(Nword);
+print("The number of vowels in the word");
+print(Nvoy);   
+END
